@@ -1,0 +1,24 @@
+[
+  {"id": 1, "type": "answerable", "question": "What is overfitting?", "expected_pages": [75]},
+  {"id": 2, "type": "answerable", "question": "What are the common causes of underfitting?", "expected_pages": [75]},
+  {"id": 3, "type": "answerable", "question": "How does the k-nearest neighbors algorithm classify a new data point?", "expected_pages": [62, 63]},
+  {"id": 4, "type": "answerable", "question": "What is the default number of neighbors in Scikit-learn for k-NN?", "expected_pages": [63]},
+  {"id": 5, "type": "answerable", "question": "Why is k-NN not recommended for large datasets?", "expected_pages": [64]},
+  {"id": 6, "type": "answerable", "question": "What ratio should be used to split data into training and test sets?", "expected_pages": [41]},
+  {"id": 7, "type": "answerable", "question": "Why should rows be randomized before splitting the data?", "expected_pages": [41, 42]},
+  {"id": 8, "type": "answerable", "question": "What is cross validation and why is it used?", "expected_pages": [42, 43]},
+  {"id": 9, "type": "answerable", "question": "How does k-fold validation work?", "expected_pages": [44]},
+  {"id": 10, "type": "answerable", "question": "What makes a dataset labeled in supervised learning?", "expected_pages": [15]},
+  {"id": 11, "type": "answerable", "question": "How can unsupervised learning help companies identify groups of customers or criminal rings?", "expected_pages": [17, 19]},
+  {"id": 12, "type": "answerable", "question": "How can clustering be used as both a supervised and an unsupervised technique?", "expected_pages": [62]},
+  {"id": 13, "type": "answerable", "question": "What is one-hot encoding?", "expected_pages": [36, 37]}
+  {"id": 14, "type": "answerable", "question": "How do I install and launch Jupyter Notebook?", "expected_pages": [101, 102]},
+  {"id": 15, "type": "answerable", "question": "Which columns were removed from the housing dataset and why?", "expected_pages": [106]},
+  {"id": 16, "type": "answerable", "question": "How can hyperparameters and cross validation help with overfitting and underfitting?", "expected_pages": [75, 76]},
+  {"id": 17, "type": "answerable", "question": "How do I stop my model from memorizing the training data?", "expected_pages": [75, 76]},
+  {"id": 18, "type": "answerable", "question": "What happens when a decision tree has a very high max depth?", "expected_pages": [109, 111, 114]},
+  {"id": 19, "type": "out_of_scope", "question": "What is the capital of France?", "expected_pages": []},
+  {"id": 20, "type": "out_of_scope", "question": "How do I deploy a model with FastAPI?", "expected_pages": []},
+  {"id": 21, "type": "out_of_scope", "question": "What is the current price of Bitcoin?", "expected_pages": []},
+  {"id": 22, "type": "out_of_scope", "question": "Give me a recipe for pasta carbonara.", "expected_pages": []}
+]
