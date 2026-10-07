@@ -1,0 +1,9 @@
+.venv/
+.env
+chroma_db/
+data/
+backup/
+__pycache__/
+*.pyc
+desktop.ini
+.vscode/
