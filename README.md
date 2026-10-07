@@ -124,7 +124,7 @@ Interactive docs are served at `/docs` when the backend is running.
 **1. Clone and install**
 
 ```bash
-git clone https://github.com/<your-username>/rag-document-qa.git
+git clone https://github.com/vsbhaskar/rag-document-qa.git
 cd rag-document-qa
 python -m venv .venv
 # Windows: .venv\Scripts\activate    macOS/Linux: source .venv/bin/activate
