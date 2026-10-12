@@ -4,6 +4,22 @@ A multi-user web app where people create an account, upload their own PDFs, and 
 
 Built end to end: PDF ingestion, vector search, grounded generation, authentication, a SQL database, and a measured retrieval evaluation.
 
+## Screenshots
+
+| Sign up / log in | Upload and manage documents |
+|---|---|
+| ![Login screen](docs/01-login.png) | ![Upload screen](docs/02-upload.png) |
+
+| Cited answer | Out-of-scope question refused |
+|---|---|
+| ![Cited answer](docs/03-answer.png) | ![Refusal](docs/04-refusal.png) |
+
+| Per-user isolation (new account sees nothing) | Hashed passwords in MySQL |
+|---|---|
+| ![Isolation](docs/05-isolation.png) | ![Database](docs/06-database.png) |
+
+*Screenshots use a public US government document as the demo PDF.*
+
 ## Features
 
 - **Accounts:** sign up, log in, log out (bcrypt password hashing, JWT sessions)
