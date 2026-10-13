@@ -1,0 +1,15 @@
+fastapi
+uvicorn
+python-multipart
+pydantic[email]
+sqlalchemy
+bcrypt
+pyjwt
+chromadb
+pypdf
+openai
+python-dotenv
+numpy
+httpx
+pytest
+ruff==0.17.0

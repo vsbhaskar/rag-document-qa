@@ -1,5 +1,7 @@
 import re
+
 from openai import OpenAI
+
 from app import config
 from app.retrieve import retrieve
 

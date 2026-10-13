@@ -3,8 +3,8 @@ import sys
 from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parent.parent))
-from app.retrieve import retrieve
 from app.config import MIN_SCORE
+from app.retrieve import retrieve
 
 
 def evaluate(k=4, min_score=MIN_SCORE, show_details=True):

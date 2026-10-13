@@ -1,5 +1,6 @@
 import chromadb
 from sentence_transformers import SentenceTransformer
+
 from app import config
 
 model = SentenceTransformer(config.EMBED_MODEL)

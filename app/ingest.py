@@ -1,6 +1,8 @@
 import re
 from pathlib import Path
+
 from pypdf import PdfReader
+
 from app import config
 from app.store import collection, model
 
