@@ -4,6 +4,8 @@ A multi-user web app where people create an account, upload their own PDFs, and 
 
 Built end to end: PDF ingestion, vector search, grounded generation, authentication, a SQL database, a measured retrieval evaluation, and an automated test suite run by CI.
 
+![CI](https://github.com/vsbhaskar/rag-document-qa/actions/workflows/ci.yml/badge.svg)
+
 ## Screenshots
 
 | Sign up / log in | Upload and manage documents |
